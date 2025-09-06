@@ -2,8 +2,8 @@
 
 import os
 # Spotify API Credentials
-CLIENT_ID = os.environ.get('SPOTIFY_CLIENT_ID', '11127bd4602e428db0820da88c44c6a9')
-CLIENT_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET', '113c0a85a83b448fb1ed374885048b57')
+CLIENT_ID = os.environ.get('SPOTIFY_CLIENT_ID')
+CLIENT_SECRET = os.environ.get('SPOTIFY_CLIENT_SECRET')
 
 # The redirect URI as registered in your Spotify Developer Dashboard
 REDIRECT_URI = os.environ.get('SPOTIFY_REDIRECT_URI', 'http://localhost:5000/callback') # FOR DEVELOPMENT ONLY.
